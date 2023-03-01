@@ -1,135 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Resume</title>
-</head>
-<body>
-
-<!-- Main -->
-<div class="main">
-    <!-- Main content -->
-    <div class="main_content">
+  </head>
+  <body>
+    <!-- Main -->
+    <div class="main">
+      <!-- Main content -->
+      <div class="main_content">
         <!-- About user -->
         <div class="about">
-            <h2 class="about_position">Design Engineer</h2>
-            <h1 class="about_name">Vitalii Melnyk</h1>
-            <p class="about_description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                Risus commodo viverra maecenas accumsan lacus vel facilisis.
-            </p>
+          <h1 class="about_name">Vitalii Melnyk</h1>
+          <h2 class="about_position">Junior Frontend Developer</h2>
+          <p class="about_description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+            Risus commodo viverra maecenas accumsan lacus vel facilisis.
+          </p>
         </div>
         <!-- Projects -->
         <div class="projects">
-            <h3 class="title">
-                Projects
-            </h3>
-            <ol class="project_list">
-                <li class="projects_item">
-                    <span class="project"><a href="https://hellenglish.goit.global/" class="project_link">https://hellenglish.goit.global/</a>
-                        ..............<span class="project_bracket">[</span>HTML5, CSS3<span class="project_bracket">]</span></span>
-                </li>
-                <li class="projects_item">
-                    <span class="project"><a href="https://cryptohub.goit.global/" class="project_link">https://cryptohub.goit.global/</a>
-                        ................<span class="project_bracket">[</span> JavaScript <span class="project_bracket">]</span></span>
-                </li>
-                <li class="projects_item">
-                    <span class="project"><a href="https://kidslike.goit.global/" class="project_link">https://kidslike.goit.global/</a>
-                        .......................<span class="project_bracket">[</span> React.js, Node.js <span class="project_bracket">]</span></span>
-                </li>
-            </ol>
+          <h3 class="title">Project Experience</h3>
+          <ul class="project_list">
+            <li class="projects_item">
+              <div class="project">
+                <a href="https://sav15.github.io/ice-cream-LazyIT/" class="project_link">
+                  IceCreame
+                </a>
+                <span>[HTML, SCSS, JS]</span>
+                <p>
+                  Ice company website with responsive layout, burger menu, modal window, usable and
+                  simple design. Role: Developer (header and first section)
+                </p>
+              </div>
+            </li>
+            <li class="projects_item">
+              <div class="project">
+                <a href="https://vol4enak.github.io/filmoteka-by-mickocheliky/index.html" class="project_link">
+                    Filmoteka
+                </a>
+                <span>[HTML, SCSS, JS, Webpack]</span>
+                <p>
+                  Website for search and view film trailer with responsive layout, search bar and personal page.
+                  Role: Developer (API-request for the main page and pagination)
+                </p>
+              </div>
+            </li>
+            <li class="projects_item">
+              <div class="project">
+                <a href="https://kidslike.goit.global/" class="project_link"
+                  >Phonebook</a>
+                .......................<span class="project_bracket">[</span> React.js, Node.js
+                <span class="project_bracket">]</span>
+              </div>
+            </li>
+          </ul>
         </div>
         <!-- Work -->
         <div>
-            <h3 class="title">Work Experience</h3>
-            <!-- Company 1 -->
-            <div>
-                <h4 class="work_position">Design Engineer <span class="organization">Camozzi</span></h4>
-                <p class="period">January 2019 - up to now<span class="line"> | </span>Ukraine</p>
-                <ul class="work_list">
-                    <li class="work_list_item">Development of design documentation for pneumatic systems.</li>
-                    <li class="work_list_item">Computer modeling of units and assemblies in Pro/Engeneer program.</li>
-                    <li class="work_list_item">Pneumatic testing after production. </li>
-                    <li class="work_list_item">Production support.</li>
-                </ul>
-            </div>
-            <!-- Company 2 -->
-            <div>
-                <h4 class="work_position">Design Engineer <span class="organization">Brovary Aluminium Plant</span></h4>
-                <p class="period">September 2017 - Desember 2018<span class="line"> | </span>Ukraine</p>
-                <ul class="work_list">
-                    <li class="work_list_item">Development of design documentation.</li>
-                    <li class="work_list_item">Computer modeling of units and assemblies in SolidWorks program.</li>
-                    <li class="work_list_item">Production support.</li>
-                </ul>
-            </div>
-            <!-- Company 3 -->
-            <div>
-                <h4 class="work_position">Design Engineer <span class="organization">ANTONOV</span></h4>
-                <p class="period">March 2011 - August 2017<span class="line"> | </span>Ukraine</p>
-                <ul class="work_list">
-                    <li class="work_list_item">Development of design documentation.</li>
-                    <li class="work_list_item">Computer modeling of units and assemblies in CATIA and NX programs.</li>
-                    <li class="work_list_item">Production support.</li>
-                </ul>
-            </div>
+          <h3 class="title">Work Experience</h3>
+          <!-- Company 1 -->
+          <div>
+            <h4 class="work_position">Design Engineer <span class="organization">Camozzi</span></h4>
+            <p class="period">January 2019 - up to now<span class="line"> | </span>Ukraine</p>
+            <ul class="work_list">
+              <li class="work_list_item">
+                Development of design documentation for pneumatic systems.
+              </li>
+              <li class="work_list_item">
+                Computer modeling of units and assemblies in Pro/Engeneer program.
+              </li>
+              <li class="work_list_item">Pneumatic testing after production.</li>
+              <li class="work_list_item">Production support.</li>
+            </ul>
+          </div>
+          <!-- Company 2 -->
+          <div>
+            <h4 class="work_position">
+              Design Engineer <span class="organization">Brovary Aluminium Plant</span>
+            </h4>
+            <p class="period">September 2017 - Desember 2018<span class="line"> | </span>Ukraine</p>
+            <ul class="work_list">
+              <li class="work_list_item">Development of design documentation.</li>
+              <li class="work_list_item">
+                Computer modeling of units and assemblies in SolidWorks program.
+              </li>
+              <li class="work_list_item">Production support.</li>
+            </ul>
+          </div>
+          <!-- Company 3 -->
+          <div>
+            <h4 class="work_position">Design Engineer <span class="organization">ANTONOV</span></h4>
+            <p class="period">March 2011 - August 2017<span class="line"> | </span>Ukraine</p>
+            <ul class="work_list">
+              <li class="work_list_item">Development of design documentation.</li>
+              <li class="work_list_item">
+                Computer modeling of units and assemblies in CATIA and NX programs.
+              </li>
+              <li class="work_list_item">Production support.</li>
+            </ul>
+          </div>
         </div>
         <!-- Education -->
         <div class="education">
-            <h3 class="title">Education</h3>
-            <h4 class="university">National Aviation University</h4>
-            <p class="profession">Energy Engineer</p>
-            <p class="period">October 2004 - February 2010<span class="line"> | </span>Ukraine</p>
+          <h3 class="title">Education</h3>
+          <h4 class="university">National Aviation University</h4>
+          <p class="profession">Energy Engineer</p>
+          <p class="period">October 2004 - February 2010<span class="line"> | </span>Ukraine</p>
         </div>
-    </div>
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <img src="img/IMG_20200827_123248.jpg" alt="user photo" width="300" class="photo">
+      </div>
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img class="photo" src="img/IMG_20200827_123248.jpg" alt="user photo" />
         <!-- Contacts -->
         <div class="contacts">
-            <h3 class="sidebar_title">Contacts</h3>
-            <div>
-                <p>
-                    <span class="contact_type">C:</span>
-                    <a href="tel:+380500115628" class="contact_link">+38 050 011 56 28</a>
-                </p>
-                <p>
-                    <span class="contact_type">E:</span>
-                    <a href="mailto:melnikvitaliy30@gmail.com" class="contact_link">melnikvitaliy30@gmail.com</a> 
-                </p>
-            </div>
+          <h3 class="sidebar_title">Contacts</h3>
+          <div>
+            <p>
+              <a href="tel:+380500115628" class="contact_link">+38 050 011 56 28</a>
+            </p>
+            <p>
+              <a href="mailto:melnikvitaliy30@gmail.com" class="contact_link"
+                >melnikvitaliy30@gmail.com</a
+              >
+            </p>
+          </div>
         </div>
         <!-- Tech skills -->
         <div class="tech_skills">
-            <h3 class="sidebar_title">Tech Skills</h3>
-            <ul class="tech_skills_list">
-                <li class="tech_skills_item"> <span class="tech_skills_text">HTML5</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">CSS3</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">GIT</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">WebPack</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">JavaScript</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">React.js</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">Node.js</span></li>
-            </ul>
+          <h3 class="sidebar_title">Tech Skills</h3>
+          <ul class="tech_skills_list">
+            <li class="tech_skills_item"><span class="tech_skills_text">HTML5</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">CSS3</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">GIT</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">WebPack</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">JavaScript</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">React.js</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">Node.js</span></li>
+          </ul>
         </div>
         <!-- Soft skills -->
         <div class="soft_skills">
-            <h3 class="sidebar_title">Soft Skills</h3>
-            <ul class="tech_skills_list">
-                <li class="tech_skills_item"> <span class="tech_skills_text">Scrum</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">Agile</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">GTD</span></li>
-                <li class="tech_skills_item"> <span class="tech_skills_text">Teamwork</span></li>
-            </ul>
+          <h3 class="sidebar_title">Soft Skills</h3>
+          <ul class="tech_skills_list">
+            <li class="tech_skills_item"><span class="tech_skills_text">Scrum</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">Agile</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">GTD</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">Teamwork</span></li>
+          </ul>
         </div>
-    </aside>
-</div>
-
-</body>
+      </aside>
+    </div>
+  </body>
 </html>

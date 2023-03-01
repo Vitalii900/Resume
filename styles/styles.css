@@ -1,6 +1,11 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f8f8f8;
+    color: #110e68;
+}
+
+p {
+    margin: 0;
 }
 
 /* main styles */
@@ -14,23 +19,24 @@ body {
 }
 
 .main_content {
-    background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+    background-color: #ececf3;
+    padding: 20px 90px;
 }
 
 /* about styles */
 
 .about {
-    margin-bottom: 40px;    
+    width: 400px;
+    margin-bottom: 40px;
+    padding: 20px;
 }
 
 .about_position {
-    font-style: normal;
+    font-style: italic;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 17px;
-    color: #000000;
+    /* color: #000000; */
     margin-bottom: 20px;
 }
 
@@ -39,7 +45,8 @@ body {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
-    color: #000000;
+    /* color: #000000; */
+    margin-top: 0;
     margin-bottom: 25px;
 }
 
@@ -56,7 +63,10 @@ body {
 /* project styles */
 
 .projects {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #cef0cd;
+    border-radius: 10px;
 }
 
 .project, .project_link {
@@ -64,11 +74,8 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;    
-}
-
-.project_link {
-    margin-left: 10px;
+    color: #595959;
+    margin-right: 10px;
 }
 
 
@@ -87,6 +94,7 @@ body {
 
 .title {
     font-style: normal;
+    margin-top: 0;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
@@ -171,14 +179,18 @@ body {
 /* sidebar styles */
 
 .sidebar {
-    background-color: #1E2939;
+    background-color: #ececf3;
     padding-top: 40px;
-    width: 370px;
+    width: 600px;
 }
 
 .photo {
-    width: 370px;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 .contacts, .tech_skills, .soft_skills {
